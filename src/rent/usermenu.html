@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User-menu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CUbuntu:400,300,300italic,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+    <div class="usermenu">
+        <b class="usermenu__title">Log In</b>
+        <form class="usermenu__form" method="post">
+            <input type="text" id="username" required
+            placeholder="Username" class="usermenu__form_text">
+            <label for="username"></label><br><br>
+            
+            <span class="usermenu__form_required">The text field is required</span>
+            
+            <input type="text" id="password" required
+            placeholder="Password" class="usermenu__form_text">
+            <label for="password"></label><br><br>
+            
+            <span class="usermenu__form_required">The text field is required</span>
+            
+            <input type="checkbox" id="check">
+            <label for="check"  class="usermenu__form_checkbox">Remember me</label><br>
+            
+            <input type="submit" value="Login" 
+            class="select-options select-options__red usermenu__form_submit"><br>
+            <input type="reset" value="Register" 
+            class="select-options select-options__blue usermenu__form_submit">
+        </form>
+        <span class="usermenu__log-on-text">
+            Forgot
+            <a href="#" class="usermenu__form_link">username</a>
+            /
+            <a href="#" class="usermenu__form_link">Password</a>
+            ?
+        </span>
+        
+    </div>
+        
+<script defer src="js/jquery-3.2.1.slim.min.js"></script>
+
+<script defer src="js/popper.min.js"></script>
+
+<script defer src="js/bootstrap.min.js"></script>
+
+<script defer src="js/jquery.min.js"></script>
+
+<script defer src="js/parallax.min.js"></script>
+
+</body>
+</html>
