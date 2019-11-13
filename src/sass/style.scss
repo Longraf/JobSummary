@@ -2,11 +2,6 @@
   margin: 0;
   padding: 0;
 }
-.wrap-content {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
 body, html{
   margin: 0;
   padding: 0;
@@ -28,12 +23,6 @@ body, html{
       height: 100px;
       width: 100px;
     }
-    //img:hover{
-    //  width: 400px;
-    //  height: 400px;
-    //  transform: translateY(50px);
-    //  top: 30px;
-    //}
   }
   .contacts{
     margin-top: 15px;
@@ -47,62 +36,21 @@ body, html{
     text-align: center;
     font-size: 1.5rem;
     margin-top: 20px;
-    .section-header{
-    }
-    .wrapper{
-      display: flex;
-      justify-content: center;
-
-      .works{
-        min-height: 300px;
+    //display: flex;
+    //justify-content: space-around;
+    .item{
+      display: block;
+      border-top: 1px solid darkred;
+      margin: 5px 35px;
+      text-decoration: none;
+      min-width: 400px;
+      p{
+        color: #000000;
+        padding: 5px;
+      }
+      img{
         width: 400px;
-        background-color: #c6c6c6;
-        margin: 20px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        cursor: pointer;
-        transition: transform 0.3s;
-      }
-      .works:hover{
-        transform: translate(2px, 2px);
-        transform: scale(1.1);
-      }
-      .rent{
-        //background-image: url(img/rent-site-min.png);
-        border: 1px solid #e5e5e5;
-        box-sizing: border-box;
-      }
-      .bike{
-        background-image: url(img/bike-site-min.png);
-      }
-      .range-slider{
-        background-image: url(img/range-slider.png);
-      }
-
-
-    }
-    @media (max-width: 1366px) {
-      .wrapper .works{
-        width: 275px;
-      }
-    }
-    @media (max-width: 960px) {
-      .wrapper .works{
-        width: 195px;
-      }
-    }
-    @media (max-width: 720px) {
-      .wrapper {
-        flex-direction: column;
-        align-items: center;
-        .works{
-          width: 400px;
-        }
-      }
-    }
-    @media (max-width: 420px) {
-      .wrapper .works{
-        width: 300px;
+        height: 300px;
       }
     }
   }
