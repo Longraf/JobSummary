@@ -2,6 +2,7 @@
 
 let gulp = require('gulp');
 let sass = require('gulp-sass'); // переводит SASS в CSS
+var browserSync = require('browser-sync').create(); // live reload
 let concat = require("gulp-concat"); // Объединение файлов - конкатенация;
 let cssnano = require("gulp-cssnano"); // Минимизация CSS
 let autoprefixer = require('gulp-autoprefixer'); // Проставлет вендорные префиксы в CSS для поддержки старых браузеров
@@ -15,20 +16,22 @@ let source = require('vinyl-source-stream');
 gulp.task('sass', function () {
     gulp.src('./src/sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(cssnano())
+        // .pipe(cssnano())
         // .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('./dist'));
+        .pipe(gulp.dest('./dist'))
+        .pipe(browserSync.stream());
 });
 
 // // Копирует html
 gulp.task('html', function() {
     gulp.src('./src/*.html')
-        .pipe(gulp.dest('./dist'));
+        .pipe(gulp.dest('./dist'))
+        .pipe(browserSync.stream());
 });
 // Объединение и сжатие JS c учётом зависимостей
 gulp.task('scripts', function() {
     return browserify({
-        entries: './src/guljs/script.js',
+        entries: './src/js/script.js',
         debug: true,
     })
         .bundle()
@@ -37,7 +40,8 @@ gulp.task('scripts', function() {
             this.emit('end')
         })
         .pipe(source("scripts.js"))
-        .pipe(gulp.dest("./dist/js/"));
+        .pipe(gulp.dest("./dist/js/"))
+        .pipe(browserSync.stream())
 });
 gulp.task('img', function() {
     return gulp.src('./src/img/**/*.{gif,jpg,jpeg,png,svg,ico}')
@@ -45,6 +49,9 @@ gulp.task('img', function() {
 });
 // Слежения за измененными файлами
 gulp.task("watch", function() {
+    browserSync.init({
+        server: {baseDir: './dist/'}
+    });
     gulp.watch("src/sass/*.scss", ["sass"]);
     gulp.watch("src/js/*.js", ["scripts"]);
     gulp.watch("src/*.html", ["html"]);
