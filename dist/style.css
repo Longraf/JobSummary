@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  height: 100%;
+  background: #f2f4f7; }
+
+body {
+  overflow-x: hidden; }
+  body .info {
+    font-size: 1.5rem;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; }
+    body .info p {
+      line-height: 1.4; }
+    body .info .name {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 20px; }
+    body .info img {
+      margin-bottom: 20px;
+      width: 100px; }
+  body .contacts {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; }
+    body .contacts .contacts__item {
+      margin: 5px; }
+      body .contacts .contacts__item .svg-icon {
+        width: 45px;
+        fill: black;
+        transition: 0.3s transform ease-out, 0.5s fill ease-in-out; }
+      body .contacts .contacts__item .svg-icon:hover {
+        fill: #2dd17a;
+        transform: scale(1.3); }
+  body .portfolio {
+    text-align: center;
+    margin: 40px 10px 0;
+    display: flex;
+    justify-content: space-evenly; }
+    body .portfolio .item {
+      display: flex;
+      flex-direction: column;
+      /* margin: 5px 35px; */
+      text-decoration: none;
+      width: 30%;
+      padding: 1px 20px;
+      align-items: center;
+      justify-content: space-between;
+      transition: 0.3s transform ease-out; }
+      body .portfolio .item .text-wrap {
+        color: black;
+        transition: 0.5s color ease-in-out; }
+      body .portfolio .item p {
+        color: #000000;
+        text-align: left;
+        width: 100%; }
+      body .portfolio .item img {
+        width: 100%; }
+    body .portfolio .item:hover {
+      transform: scale(1.1); }
+      body .portfolio .item:hover .text-wrap {
+        color: #2dd17a; }
+  @media (max-width: 1024px) {
+    body .info {
+      font-size: 1.2rem; }
+    body .portfolio {
+      flex-direction: column; }
+      body .portfolio .item {
+        width: 100%;
+        margin-top: 45px;
+        padding: 0; }
+        body .portfolio .item .text-wrap {
+          margin-bottom: 10px; } }

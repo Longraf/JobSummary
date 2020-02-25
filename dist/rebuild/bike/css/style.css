@@ -1,0 +1,1437 @@
+@import url(//fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic|Libre+Baskerville:regular,italic,700|Merriweather:300,300italic,regular,italic,700,700italic,900,900italic|Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&subset=latin,latin-ext,vietnamese,cyrillic,devanagari,cyrillic-ext,greek-ext,greek);
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url("../font/glyphicons-halflings-regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    /*    overflow-x: hidden;*/
+    min-height: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+}
+
+body,
+html {
+    height: 100%;
+    background-color: #2b2c2c;
+}
+/*@media only touch {*/
+    /*body,*/
+    /*html {*/
+        /*width: 635px;*/
+    /*}*/
+/*}*/
+@media (max-width: 1039px) {
+    .moto-text_system_14 {
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: 0px;
+    }
+}
+@media (max-width: 900px){
+
+}
+.moto-text_system_14 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #2ccb77;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0px;
+}
+
+
+.moto-text_system_14 a {
+    color: #2ccb77;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_14 a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_14 {
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_14 {
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_14 {
+        font-size: 13px;
+        line-height: 1.6;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_13 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #a2a2a2;
+    font-size: 16px;
+    line-height: 2.4;
+    letter-spacing: 0px;
+}
+
+.moto-text_system_13 a {
+    color: #a2a2a2;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_13 a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #2ccb77;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_13 {
+        font-size: 11px;
+        line-height: 1.8;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_13 {
+        font-size: 13px;
+        line-height: 1.9;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_13 {
+        font-size: 11px;
+        line-height: 1.7;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_12 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.56);
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+}
+
+.moto-text_system_12 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_12 a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #2ccb77;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_12 {
+        font-size: 12px;
+        line-height: 1.6;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_12 {
+        font-size: 12px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_12 {
+        font-size: 12px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_11 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+.moto-text_system_11 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_11 a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #2ccb77;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_11 {
+        font-size: 12px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_11 {
+        font-size: 12px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_11 {
+        font-size: 12px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_10 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #dbdbdb;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0px;
+}
+
+.moto-text_system_10 a {
+    color: #dbdbdb;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_10 a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #2ccb77;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_10 {
+        font-size: 13px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+    }
+    .carusel-item-wrapper {
+    height: 100px;
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: left;
+    text-align: left;
+    }
+    .carousel-caption {
+        left: 15%;
+        right: 15%;
+        top: 5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_10 {
+        font-size: 13px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_10 {
+        font-size: 13px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_9 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #2ccb77;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+.moto-text_system_9 a {
+    color: #2ccb77;
+    text-decoration: none;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.moto-text_system_9 a:hover {
+    text-decoration: none;
+    font-weight: 300;
+    font-style: normal;
+    color: #ffffff;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_9 {
+        font-size: 18px;
+        line-height: 1.1;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_9 {
+        font-size: 17px;
+        line-height: 1;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_9 {
+        font-size: 17px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_8 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.moto-text_system_8 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_8 a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #2ccb77;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_8 {
+        font-size: 22px;
+        line-height: 1.6;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_8 {
+        font-size: 25px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_8 {
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_7 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 39px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.moto-text_system_7 a {
+    color: #212121;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_7 a:hover {
+    text-decoration: none;
+    font-weight: 600;
+    font-style: normal;
+    color: #2ccb77;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_7 {
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_7 {
+        font-size: 20px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_7 {
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_6 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.moto-text_system_6 a {
+    color: #212121;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_6 a:hover {
+    text-decoration: none;
+    font-weight: 300;
+    font-style: normal;
+    color: #2ccb77;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_6 {
+        font-size: 40px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_6 {
+        font-size: 35px;
+        line-height: 1.3;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_6 {
+        font-size: 27px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_5 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 1.5;
+    letter-spacing: 13px;
+}
+
+.moto-text_system_5 a {
+    color: #212121;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_5 a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #2ccb77;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_5 {
+        font-size: 50px;
+        line-height: 1.2;
+        letter-spacing: 7px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_5 {
+        font-size: 45px;
+        line-height: 1.4;
+        letter-spacing: 5px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_5 {
+        font-size: 35px;
+        line-height: 1.5;
+        letter-spacing: 2px;
+    }
+}
+
+.moto-text_system_4 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #2ccb77;
+    font-size: 75px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.moto-text_system_4 a {
+    color: #212121;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_4 a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #2ccb77;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_4 {
+        font-size: 50px;
+        line-height: 1.3;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_4 {
+        font-size: 45px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_4 {
+        font-size: 35px;
+        line-height: 1.2;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_3 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 280px;
+    line-height: 1;
+    letter-spacing: 22px;
+}
+
+.moto-text_system_3 a {
+    color: #212121;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.moto-text_system_3 a:hover {
+    text-decoration: none;
+    font-weight: 700;
+    font-style: normal;
+    color: #2ccb77;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_3 {
+        font-size: 200px;
+        line-height: 1.1;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_3 {
+        font-size: 200px;
+        line-height: 1.1;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_3 {
+        font-size: 150px;
+        line-height: 1.1;
+        letter-spacing: 0px;
+    }
+}
+
+.moto-text_system_2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.moto-text_system_2 a {
+    color: #212121;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_system_2 a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #212121;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_2 {
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_2 {
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_2 {
+        font-size: 14px;
+        line-height: 1.3;
+        letter-spacing: 2px;
+    }
+}
+
+.moto-text_system_1 {
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.3;
+    letter-spacing: 5px;
+}
+
+.moto-text_system_1 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.moto-text_system_1 a:hover {
+    text-decoration: none;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_system_1 {
+        font-size: 14px;
+        line-height: 1;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_system_1 {
+        font-size: 20px;
+        line-height: 1.3;
+        letter-spacing: 3px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_system_1 {
+        font-size: 19px;
+        line-height: 1.3;
+        letter-spacing: 3px;
+    }
+}
+
+.moto-text_normal {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Montserrat', sans-serif;
+    color: #dbdbdb;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+}
+
+.moto-text_normal a {
+    color: #2ccb77;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.moto-text_normal a:hover {
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    color: #f5f5f5;
+}
+
+@media (max-width: 1039px) {
+    .moto-text_normal {
+        font-size: 15px;
+        line-height: 1.5;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .moto-text_normal {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0px;
+    }
+}
+
+@media (max-width: 479px) {
+    .moto-text_normal {
+        font-size: 15px;
+        line-height: 1.4;
+        letter-spacing: 0px;
+    }
+}
+.moto-text_204 {
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
+  color: #a69fa5;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0px;
+}
+.moto-text_204 a {
+  color: #a69fa5;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+}
+.moto-text_204 a:hover {
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  color: #2ccb77;
+}
+@media (max-width: 1039px) {
+  .moto-text_204 {
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .moto-text_204 {
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .moto-text_204 {
+    font-size: 12px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+  }
+}
+.moto-text_186 {
+  font-weight: 300;
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 46px;
+  line-height: 1.4;
+  letter-spacing: 0px;
+}
+.moto-text_186 a {
+  color: #2b2c2c;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+}
+.moto-text_186 a:hover {
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  color: #c90926;
+}
+@media (max-width: 1039px) {
+  .moto-text_186 {
+    font-size: 35px;
+    line-height: 1.1;
+    letter-spacing: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .moto-text_186 {
+    font-size: 35px;
+    line-height: 1.3;
+    letter-spacing: 0px;
+  }
+}
+@media (max-width: 479px) {
+  .moto-text_186 {
+    font-size: 35px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+  }
+}
+.moto-spacing-top-zero {
+  padding-top: 0;
+}
+.moto-spacing-top-medium {
+  padding-top: 60px;
+}
+.moto-spacing-top-large {
+  padding-top: 170px;
+}
+.moto-spacing-bottom-auto {
+  padding-bottom: initial;
+}
+.moto-spacing-bottom-zero {
+  padding-bottom: 0;
+}
+.moto-spacing-bottom-small {
+  padding-bottom: 25px;
+}
+.moto-spacing-bottom-medium {
+  padding-bottom: 60px;
+}
+.moto-spacing-bottom-large {
+  padding-bottom: 170px;
+}
+.moto-spacing-left-auto {
+  padding-left: initial;
+}
+.moto-spacing-left-zero {
+  padding-left: 0;
+}
+.moto-spacing-left-small {
+  padding-left: 25px;
+}
+.moto-spacing-left-medium {
+  padding-left: 60px;
+}
+.moto-spacing-left-large {
+  padding-left: 170px;
+}
+.moto-spacing-right-auto {
+  padding-right: initial;
+}
+.moto-spacing-right-zero {
+  padding-right: 0;
+}
+.moto-spacing-right-small {
+  padding-right: 25px;
+}
+.moto-spacing-right-medium {
+  padding-right: 60px;
+}
+.moto-spacing-right-large {
+  padding-right: 170px;
+}
+@media (max-width: 1039px) {
+  /*.moto-spacing-top-small {*/
+    /*padding-top: 20px;*/
+  /*}*/
+  .moto-spacing-top-medium {
+    padding-top: 30px;
+  }
+  .moto-spacing-top-large {
+    padding-top: 50px;
+  }
+  .moto-spacing-bottom-small {
+    padding-bottom: 20px;
+  }
+  .moto-spacing-bottom-medium {
+    padding-bottom: 30px;
+  }
+  .moto-spacing-bottom-large {
+    padding-bottom: 50px;
+  }
+  .moto-spacing-left-small {
+    padding-left: 20px;
+  }
+  .moto-spacing-left-medium {
+    padding-left: 30px;
+  }
+  .moto-spacing-left-large {
+    padding-left: 50px;
+  }
+  .moto-spacing-right-small {
+    padding-right: 20px;
+  }
+  .moto-spacing-right-medium {
+    padding-right: 30px;
+  }
+  .moto-spacing-right-large {
+    padding-right: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .moto-spacing-top-small {
+    padding-top: 15px;
+  }
+  .moto-spacing-top-medium {
+    padding-top: 25px;
+  }
+  .moto-spacing-top-large {
+    padding-top: 40px;
+  }
+  .moto-spacing-bottom-small {
+    padding-bottom: 15px;
+  }
+  .moto-spacing-bottom-medium {
+    padding-bottom: 25px;
+  }
+  .moto-spacing-bottom-large {
+    padding-bottom: 40px;
+  }
+  .moto-spacing-left-small {
+    padding-left: 15px;
+  }
+  .moto-spacing-left-medium {
+    padding-left: 25px;
+  }
+  .moto-spacing-left-large {
+    padding-left: 40px;
+  }
+  .moto-spacing-right-small {
+    padding-right: 15px;
+  }
+  .moto-spacing-right-medium {
+    padding-right: 25px;
+  }
+  .moto-spacing-right-large {
+    padding-right: 40px;
+  }
+}
+@media (max-width: 479px) {
+  .moto-spacing-top-small {
+    padding-top: 15px;
+  }
+  .moto-spacing-top-medium {
+    padding-top: 25px;
+  }
+  .moto-spacing-top-large {
+    padding-top: 35px;
+  }
+  .moto-spacing-bottom-small {
+    padding-bottom: 15px;
+  }
+  .moto-spacing-bottom-medium {
+    padding-bottom: 25px;
+  }
+  .moto-spacing-bottom-large {
+    padding-bottom: 35px;
+  }
+  .moto-spacing-left-small {
+    padding-left: 15px;
+  }
+  .moto-spacing-left-medium {
+    padding-left: 25px;
+  }
+  .moto-spacing-left-large {
+    padding-left: 35px;
+  }
+  .moto-spacing-right-small {
+    padding-right: 15px;
+  }
+  .moto-spacing-right-medium {
+    padding-right: 25px;
+  }
+  .moto-spacing-right-large {
+    padding-right: 35px;
+  }
+}
+.nav-item a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    border-bottom: 3px solid #2ccb77;
+    padding-bottom: 2px;
+}
+
+.moto-widget-divider-line {
+    width: 8%;
+    border-top: 2px solid #2ccb77;
+}
+.moto-widget-divider-line__width16 {
+    width: 16%;
+}
+.btn-bg-green:hover {
+    background: #a2a2a2;
+}
+.pricing-table-bg__btn {
+    font-size: 12px;
+    padding: 20px 60px;
+    margin-bottom: 30px;
+}
+.pricing-table-bg__btn:hover {
+    background: #a2a2a2;
+    color: #ffffff;
+}
+
+.footer {
+    background: #140B05;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.social-link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    transition: all .5s ease;
+}
+.social-link:hover {
+    background: #2ccb77;
+    color: #140B05;
+}
+.moto-background {
+    background-color: #2b2c2c;
+}
+.moto-main-bg {
+    background: url("../img/mt-1145-header-bg.jpg") left top no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.max-width1200-wrapper {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+}
+.moto-widget-text * {
+    transition: .3s;
+}
+.green-text {
+    color: #2ccb77;
+}
+.gray-color {
+    color: #a2a2a2;
+}
+
+.color-dbdbdb {
+    color: #dbdbdb;
+}
+.white-color {
+    color: #ffffff;
+}
+.bg-green {
+    background: #2ccb77;
+}
+.bg-212121-dark {
+    background: #212121;
+}
+.bg-2B2C2C-light {
+    background: #2B2C2C;
+}
+
+.navbar-brand {
+    transform: scale(0.95);
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1149px) {
+    .navbar-brand {
+        transform: scale(0.85);
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        }
+    .navbar-header {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: -10px;
+        margin-right: 0;
+    }
+    .navbar-nav li a{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1013px) {
+    .width1014-pt {
+        padding-top: 0px;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+    }
+    .navbar-wrapper {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+    .navbar-nav a {
+        padding-bottom: 1px;
+    }
+}
+@media (max-width: 880px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .navbar-collapse {
+        padding-right: 5px;
+        padding-left: 15px;
+    }
+    .navbar-nav {
+        margin-left: -10px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar-wrapper {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 374px) {
+    .navbar-brand {
+        transform: scale(0.45);
+        margin-left: -40px;
+        }
+    .moto-widget-menu-toggle-btn {
+        transform: scale(0.85);
+        position: absolute;
+        right: 5%;
+    }
+    .back-to-top-btn {
+        transform: scale(0.75);
+    }
+}
+.navbar-nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-right: -6px;
+    padding-left: 5px;
+}
+.navbar-nav a{
+    color: #ffffff;
+    transition: all 0.3s ease-out;
+}
+.navbar-nav a:hover {
+    color: #2ccb77;
+}
+.link-open > a:focus {
+    background-color: #3b3b3b; 
+}
+.link-open > a:active {
+    background-color: #3b3b3b; 
+}
+.link-open > a:link {
+    background-color: #3b3b3b; 
+}
+.link-open > a:visited {
+    background-color: #3b3b3b; 
+}
+.navbar-nav li{
+    margin-top: 15px;
+    transition: all 0.3s ease-out;
+}
+.navbar-nav li:hover a{
+    background-color: transparent;
+}
+
+.navbar-nav li 
+a::after {
+    display: block;
+    content: "";
+    margin-top: 10px;
+    transition: all 0.3s ease-out;
+}
+.navbar-nav > li:hover >
+a::after {
+    outline: 1px solid #2ccb77;
+}
+.navbar-nav  ul a:hover {
+    color: #2ccb77;
+}
+.navbar-nav > li ul li:hover
+a::after {
+    outline: 1px solid #2ccb77;
+}
+.navbar-wrapper {
+    padding-right: 0;
+    padding-left: 0px;
+}
+.menu-sublist {
+    background-color: #3b3b3b; 
+    font-size: 12px;
+}
+.menu-sublist li a {
+    color: #fff;
+}
+.navbar-fixed {
+    z-index: 20;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+.contact-us-bg {
+    background: #212121; 
+    width: 100%;
+}
+.active-link::after {
+    outline: 1px solid #2ccb77;
+}
+
+.pricing-table-bg {
+    background: #2B2C2C; width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.text-om-main-bg_line-wrapper {
+    display: flex;
+}
+.text-om-main-bg_line {
+    height: 2px;
+    width: 60px;
+    background: #A69FA5;
+    margin-top: 4px;
+    margin-left: 3px;
+    margin-right: 40px;
+}
+.pricing-table__col_wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pricing-table__col {
+    padding: 14%;
+    margin: 15px auto;   
+}
+.pricing-table__col:hover{
+    background-color: #414141;
+}
+.padding-undo-fixed {
+    padding-top: 300px;
+}
+.testimonials {
+    width: 100%;
+    background: #121212 url("../img/mt-1145-content-bg01.jpg") left top no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.excellence-im__col {
+    padding-left: 50px;
+}
+.excellence-in__list {
+    padding: 0;
+    margin-left: 0px;
+    list-style: none;
+}
+.excellence-in__list > li::before{
+    content: ">";
+    padding-right: 20px;
+    color: #2CCB71;
+}
+.video-wrapper {
+    position: relative;
+}
+.icon-play {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: -35px;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    padding-left: 12px;
+    line-height: 73px;
+    color: #000;
+}
+.underline {
+    text-decoration: underline;
+}
+.back-to-top-btn {
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 20px;
+    transition: .3s;
+    color: #ffffff;
+    background: #2ccb77;
+    font: 26px/58px 'FontAwesome';
+    border-radius: 50%;
+    text-align: center;
+    height: 58px;
+    width: 58px;
+}
+.carusel-item-wrapper {
+    height: 500px;
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: left;
+    text-align: left;
+}
+.carousel-caption {
+    left: 15%;
+    right: 15%;
+    top: 5%;
+}
+.hr-slide {
+    margin-left: 0;
+}
+.icon-quote-carousel {
+    position: absolute;
+    left: -4%;
+}
+.icon-font {
+    color: #FFFFFF;
+}
+.back-to-top-btn:hover  {
+    background: #212121;
+}
+.moto-widget-menu-toggle-btn {
+    position: absolute;
+    color: #2ccb77;
+    background-color: #ffffff;
+    font-size: 22px;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    right: 0;
+}
+.carousel-control {
+    background-color: transparent;
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
+}
+.text-decoration-none-hover:hover {
+    text-decoration: none;
+    color: #2ccb77;
+}
+.text-decoration-none-hover {
+    text-decoration: underline;
+}
+.img-responsive {
+    margin: 0 auto;
+}
+.iframe {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    max-width: 580px;
+    padding-right: 20px;
+}
+iframe {
+    margin-right: 20px;
+    width: 100%;
+    height: 300px;
+}
+.center-text{
+    background-position: center;
+    height: 400px;
+    padding-top: 160px;
+}
+/*.faq-block{*/
+    /*background-position: center;*/
+    /*height: 400px;*/
+    /*padding-top: 160px;*/
+/*}*/
+/*
+nav.largeheight {
+    height: 136px;
+    display: block;
+    position: relative;
+}
+nav.smallheight {
+    height: 50px;
+    position: fixed;
+}*/

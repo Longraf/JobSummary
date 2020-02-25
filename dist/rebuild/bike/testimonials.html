@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Testimonials</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="import" href="htmlimport.html">
+    <!--    <link rel="stylesheet" href="css/fontello.css">-->
+</head>
+<body class="moto-background">
+
+<script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+    var el = content.querySelector('.headerdiv');
+    document.body.appendChild(el.cloneNode(true));
+</script>
+
+<div class="moto-main-bg padding-undo-fixed center-text">
+    <div class="max-width1200-wrapper">
+        <p class="moto-text_system_6">Testimonials</p>
+        <p class="moto-text_system_8">We are always glad to receive feedback from our clients</p>
+    </div>
+</div>
+
+<!--  FOOTER menu  -->
+
+<script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+    var el = content.querySelector('.footer');
+    document.body.appendChild(el.cloneNode(true));
+</script>
+
+<!--  Фиксированная кнопка-ссылка вверх  -->
+<a class="back-to-top-btn icon-font" href="#">
+    <i class="icon-font icon-up-big"></i>
+</a>
+
+
+</body>
+
+</html>

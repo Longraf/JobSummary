@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quest-Price-list</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="import" href="htmlimport.html">
+    <!--    <link rel="stylesheet" href="css/fontello.css">-->
+</head>
+<body class="moto-background">
+
+    <script>
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+
+        // DOM из документа page.html
+        var el = content.querySelector('.headerdiv');
+
+        document.body.appendChild(el.cloneNode(true));
+    </script>
+        
+    
+    <div class="moto-main-bg moto-widget moto-widget-block moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large padding-undo-fixed">
+        <div class="max-width1200-wrapper">
+                <p class="moto-text_system_6">Price List</p>
+                <p class="moto-text_system_8">We have competitive prices for all types of services</p>  
+        </div>
+    </div>
+    
+    
+    
+    <script>
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+        var el = content.querySelector('.pricing-table');
+        document.body.appendChild(el.cloneNode(true));
+    </script>
+    
+    <script>
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+        var el = content.querySelector('.testimonials');
+        document.body.appendChild(el.cloneNode(true));
+    </script>
+    
+    <script>
+        var link = document.querySelector('link[rel="import"]');
+        var content = link.import;
+        var el = content.querySelector('.footer');
+        document.body.appendChild(el.cloneNode(true));
+    </script>
+    
+    <!--  Фиксированная кнопка-ссылка вверх  -->
+    <a class="back-to-top-btn icon-font" href="#">
+        <i class="icon-font icon-up-big"></i>
+    </a>
+    
+    
+
+       
+       
+    
+<script defer src="js/jquery-3.2.1.slim.min.js"></script>
+
+<script defer src="js/popper.min.js"></script>
+
+<script defer src="js/bootstrap.min.js"></script>
+
+<script defer src="js/jquery.min.js"></script>
+
+<script defer src="js/parallax.min.js"></script>
+
+</body>
+
+</html>
