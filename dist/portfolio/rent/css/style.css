@@ -317,7 +317,7 @@
     transform: translateY(110px);
     transition: all 0.6s;
 }
-.offers-apartments__text-hidden:hover {
+.offers-apartments:hover .offers-apartments__text-hidden{
     display: block;
     transform: translateY(0px);
     color: white;
