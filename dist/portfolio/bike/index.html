@@ -9,28 +9,58 @@
     <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="import" href="htmlimport.html">
+    <link rel="import" href="/htmlimport.html">
     <link rel="stylesheet" href="css/style.css">
+    <!--    <link rel="stylesheet" href="css/fontello.css">-->
 </head>
 <body class="moto-background">
-    <script>
-        var link = document.querySelector('link[rel="import"]');
-        var content = link.import;
-        var el = content.querySelector('.headerdiv');
-        document.body.appendChild(el.cloneNode(true));
-    </script>
     <div class="moto-main-bg
      moto-spacing-right-auto moto-spacing-bottom-large ">
         <div class="max-width1200-wrapper">
-           <div class="moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto"></div>
+           <div class="moto-spacing-top-small moto-spacing-right-auto moto-spacing-bottom-auto"></div> 
             <nav class="navbar" role="navigation">
               <div class="container-fluid navbar-wrapper">
+                <!-- Brand and toggle get grouped for better mobile display -->
+
                 <div class="navbar-header navbar-dark col-sm-3">
                     <button type="button" class="visible-xs moto-widget-menu-toggle-btn " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <i class="icon-menu"></i>
                     </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/mt-1145-logo.png" alt="main-logo">
+                    </a>
                 </div>
-              </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse col-sm-9 center-block" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right text-uppercase small">
+                        <li class="active home-link"><a class="white-color home-link" href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle link-open" data-toggle="dropdown">Services <b class="caret"></b></a>
+                          <ul class="dropdown-menu menu-sublist">
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Testimonialsе</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="our-team.html">Our Team</a></li>
+                        <li><a href="price-list.html">Price List</a></li>
+                        <li><a href="portfolio.html">Portfolio</a> </li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="contacts.html" class="active-lin">Contacts</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
             </nav>
             
             <div class="text-om-main-bg">
@@ -64,8 +94,10 @@
 
         // DOM из документа page.html
         var el = content.querySelector('.stay-confident');
+
         document.body.appendChild(el.cloneNode(true));
     </script>
+      
     <div class="excellence-in
     container-fluid bg-212121-dark
     moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-large ">
@@ -231,7 +263,7 @@
                     </div>
                 </div>
                 <div class="col-sm-8 iframe">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56331.41061978146!2d-92.0013395987004!3d30.984844051715616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a454b2118265%3A0xc955f73281e54703!2z0JvRg9C40LfQuNCw0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1513152551273"   allowfullscreen></iframe>
+                    <iframe height="380" width="600" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56331.41061978146!2d-92.0013395987004!3d30.984844051715616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a454b2118265%3A0xc955f73281e54703!2z0JvRg9C40LfQuNCw0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1513152551273"   allowfullscreen></iframe>
                 </div>
             </div>
         </div>
