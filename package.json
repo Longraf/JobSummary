@@ -24,7 +24,7 @@
     "babel-preset-es2017": "^6.24.1",
     "babel-runtime": "^6.25.0",
     "babelify": "latest",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "browserify": "latest",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^2.1.0",
